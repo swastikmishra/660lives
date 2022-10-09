@@ -69,8 +69,8 @@ body footer.footer a ion-icon {
   font-size: 50px;
   transform: translateY(5px);
 }
-html div.column.is-8.border-box,
-body div.column.is-8.border-box {
+html div.column.border-box,
+body div.column.border-box {
   background: #406faf;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
