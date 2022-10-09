@@ -12,7 +12,7 @@ body.has-navbar-fixed-top {
 }
 html div.min-height,
 body div.min-height {
-  min-height: calc(100vh - 125px - 95px);
+  min-height: calc(100vh - 125px - 78px);
 }
 html h1,
 html h2,
@@ -59,15 +59,15 @@ body nav.navbar .navbar-item:hover {
 }
 html footer.footer a,
 body footer.footer a {
-  font-size: 45px;
+  font-size: 30px;
   color: black;
   font-family: "Aachen Bold", "PT Sans", sans-serif;
   vertical-align: middle;
 }
 html footer.footer a ion-icon,
 body footer.footer a ion-icon {
-  font-size: 50px;
-  transform: translateY(5px);
+  font-size: 35px;
+  transform: translateY(3px);
 }
 html div.column.border-box,
 body div.column.border-box {
@@ -103,11 +103,12 @@ body div.faq {
 html div.faq .bubble,
 body div.faq .bubble {
   margin-bottom: -40px;
-  transform: translateX(-115px);
+  transform: translateX(-85px);
 }
 html div.faq .bubble img,
 body div.faq .bubble img {
   transform: rotateY(180deg);
+  width: 250px;
 }
 html div.faq .bubble span,
 body div.faq .bubble span {
@@ -122,5 +123,5 @@ body div.faq .bubble span {
 }
 html div.faq img,
 body div.faq img {
-  width: 250px;
+  width: 300px;
 }
