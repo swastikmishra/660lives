@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "Aachen Bold"; /*a name to be used later*/
+  src: url("/assets/AachenBold.ttf"); /*URL to font*/
+}
+html,
+body {
+  font-family: "PT Sans", sans-serif;
+
+  &.has-navbar-fixed-top {
+    padding-top: 125px;
+  }
+
+  div.min-height {
+    min-height: calc(100vh - 125px - 95px);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Aachen Bold", "PT Sans", sans-serif;
+  }
+
+  nav.navbar {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+    .navbar-brand {
+      font-family: "Aachen Bold", "PT Sans", sans-serif;
+      font-size: 3.5rem;
+      color: black;
+      vertical-align: middle;
+
+      .navbar-item {
+        font-weight: normal;
+        line-height: 3.5rem;
+
+        span {
+          transform: translateY(5px);
+        }
+
+        img {
+          max-height: 100px;
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .navbar-item {
+      font-weight: bold;
+
+      &:hover {
+        color: black;
+      }
+    }
+  }
+
+  footer.footer {
+    a {
+      font-size: 45px;
+      color: black;
+      font-family: "Aachen Bold", "PT Sans", sans-serif;
+      vertical-align: middle;
+
+      ion-icon {
+        font-size: 50px;
+        transform: translateY(5px);
+      }
+    }
+  }
+
+  div.column.is-8.border-box{
+    background: #406faf;
+    border-radius: 6px;
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+  }
+
+  div.box.main-content {
+    background: #406faf;
+    color: #fff;
+    font-size: 1.2rem;
+    border: 4px dashed white;
+
+    h1 {
+      font-size: 45px;
+      color: black;
+      font-weight: normal;
+    }
+
+    img {
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      border-radius: 3px;
+    }
+  }
+
+  div.faq {
+    position: fixed;
+    right: 0;
+    bottom: -10px;
+
+
+    .bubble{
+        margin-bottom: -40px;
+        transform: translateX(-115px);
+        img{
+            transform: rotateY(180deg);
+        }
+        span{
+            width: 170px;
+            display: block;
+            margin-bottom: -145px;
+            margin-left: 40px;
+            z-index: 2;
+            position: relative;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+
+    img{
+        width: 250px;
+    }
+  }
+}
